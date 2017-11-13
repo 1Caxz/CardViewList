@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardTwoViewController" customModule="CardViewListDemo" customModuleProvider="target">
             <connections>
                 <outlet property="btnDetail" destination="vGR-Gh-yuM" id="hiZ-hm-JJn"/>
+                <outlet property="imgBg" destination="cqz-ch-Ocq" id="oWG-9D-h4k"/>
                 <outlet property="imgProfile" destination="h4J-mX-oAX" id="DRg-Gg-yMp"/>
                 <outlet property="lblSummary" destination="8nL-h1-z4b" id="n7i-e2-lTL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -23,9 +24,8 @@
             <rect key="frame" x="0.0" y="0.0" width="349" height="166"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cqz-ch-Ocq">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cqz-ch-Ocq">
+                    <rect key="frame" x="0.0" y="0.0" width="349" height="166"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icaksama1" translatesAutoresizingMaskIntoConstraints="NO" id="h4J-mX-oAX">
                     <rect key="frame" x="16" y="33" width="75" height="75"/>
@@ -65,10 +65,14 @@
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8nL-h1-z4b" secondAttribute="trailing" constant="16" id="1uT-Va-0G7"/>
                 <constraint firstItem="vGR-Gh-yuM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="OaA-T2-aep"/>
+                <constraint firstItem="cqz-ch-Ocq" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Qvs-1c-Zfm"/>
                 <constraint firstItem="8nL-h1-z4b" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="33" id="S7y-mb-xXu"/>
+                <constraint firstItem="cqz-ch-Ocq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="SGt-F0-HTC"/>
+                <constraint firstItem="cqz-ch-Ocq" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="UbQ-HU-70L"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vGR-Gh-yuM" secondAttribute="trailing" constant="16" id="i4Q-IV-BPM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="vGR-Gh-yuM" secondAttribute="bottom" constant="20" id="ik3-f7-fPZ"/>
                 <constraint firstItem="h4J-mX-oAX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="jgo-n7-hgz"/>
+                <constraint firstItem="cqz-ch-Ocq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="nOW-PR-5jW"/>
                 <constraint firstItem="h4J-mX-oAX" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="33" id="yKS-Ae-Gnr"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

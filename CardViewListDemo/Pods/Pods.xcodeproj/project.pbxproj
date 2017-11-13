@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,21 +33,21 @@
 		0690850EDC4E92FD4E87ADEA3DF84039 /* CardViewList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardViewList.xcconfig; sourceTree = "<group>"; };
 		0EB740D2BD3D954482004B6E9CF7B3BB /* Pods-CardViewListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardViewListDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1B710726E530EFE37ACB004E36155932 /* Pods-CardViewListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardViewListDemo.release.xcconfig"; sourceTree = "<group>"; };
-		33015F3A06C093E2AFA34BDBCB4882CB /* Pods-CardViewListDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CardViewListDemo.modulemap"; sourceTree = "<group>"; };
+		33015F3A06C093E2AFA34BDBCB4882CB /* Pods-CardViewListDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CardViewListDemo.modulemap"; sourceTree = "<group>"; };
 		578B3023CD2F06682BF3E60F799839FD /* Pods-CardViewListDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CardViewListDemo-umbrella.h"; sourceTree = "<group>"; };
 		5B560A2BDCDD9CE73BA8C72E4458EE15 /* CardViewList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CardViewList-dummy.m"; sourceTree = "<group>"; };
 		689BAD39933B64C41A48AC6B5E9B6252 /* Pods-CardViewListDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CardViewListDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6F17EE6881CE219187F8C119AC9E2F2F /* CardViewList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardViewList.h; path = CardViewList/CardViewList/CardViewList.h; sourceTree = "<group>"; };
 		6F76960ADE3F8A83EA517CE22691EF87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70887A0206D786097BE0E090EA1C33BC /* CardViewList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CardViewList.framework; path = CardViewList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70887A0206D786097BE0E090EA1C33BC /* CardViewList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardViewList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA7B01BB150660F172EE56FCF1B8503 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = CardViewList/CardViewList/Utilities.swift; sourceTree = "<group>"; };
 		7E06D6FC681D6575040E1D6C6C5CC27A /* Pods-CardViewListDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CardViewListDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		8A74EECAA4825664C568FBB06AD8B730 /* Pods-CardViewListDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CardViewListDemo-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B867F458A35EF175F75038AB04591609 /* CardViewList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CardViewList-umbrella.h"; sourceTree = "<group>"; };
 		B94A67DBE4EBE4D31379655BDEDB214B /* CardViewList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardViewList.swift; path = CardViewList/CardViewList/CardViewList.swift; sourceTree = "<group>"; };
-		B9DC04470FC743E243EA22F5BC0F719B /* CardViewList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CardViewList.modulemap; sourceTree = "<group>"; };
-		C3533734539C43B02C9952380960C5D1 /* Pods_CardViewListDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CardViewListDemo.framework; path = "Pods-CardViewListDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DC04470FC743E243EA22F5BC0F719B /* CardViewList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CardViewList.modulemap; sourceTree = "<group>"; };
+		C3533734539C43B02C9952380960C5D1 /* Pods_CardViewListDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardViewListDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E41D4444E060EA63E6F5F515AC11F567 /* Pods-CardViewListDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CardViewListDemo-dummy.m"; sourceTree = "<group>"; };
 		E8C85AB24D6B4962B520F5D72E1687DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,7 +90,6 @@
 				7DA7B01BB150660F172EE56FCF1B8503 /* Utilities.swift */,
 				6BCF534715058096185DF0ED25DF9613 /* Support Files */,
 			);
-			name = CardViewList;
 			path = CardViewList;
 			sourceTree = "<group>";
 		};

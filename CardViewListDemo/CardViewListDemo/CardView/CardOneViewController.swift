@@ -21,9 +21,7 @@ class CardOneViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         imgProfile.layer.cornerRadius = imgProfile.bounds.width / 2
-        imgProfile.clipsToBounds = true
         lblSummary.layer.cornerRadius = 12
-        lblSummary.clipsToBounds = true
         btnDetail.layer.cornerRadius = 12
     }
     

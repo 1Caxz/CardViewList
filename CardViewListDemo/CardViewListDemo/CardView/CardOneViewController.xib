@@ -20,11 +20,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="340" height="372"/>
+            <rect key="frame" x="0.0" y="0.0" width="299" height="372"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="0QG-BZ-l6A">
-                    <rect key="frame" x="0.0" y="0.0" width="340" height="159"/>
+                    <rect key="frame" x="0.0" y="0.0" width="299" height="159"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="159" id="Q6z-wQ-kM5"/>
                     </constraints>
@@ -37,7 +37,7 @@
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAl-9h-aOC">
-                    <rect key="frame" x="16" y="322" width="308" height="30"/>
+                    <rect key="frame" x="16" y="322" width="267" height="30"/>
                     <color key="backgroundColor" red="0.38178261937315516" green="0.72336632010000002" blue="0.34691892852079892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="xsL-4e-Bkj"/>
@@ -51,7 +51,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CardViewList library for swift. Create CardView like Android in iOS easier with this library." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhc-sw-Oxo">
-                    <rect key="frame" x="16" y="227" width="308" height="87"/>
+                    <rect key="frame" x="16" y="227" width="267" height="87"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="87" id="uOi-tm-dIS"/>
@@ -77,7 +77,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="-127" y="-332"/>
+            <point key="canvasLocation" x="-147.5" y="-332"/>
         </view>
     </objects>
     <resources>

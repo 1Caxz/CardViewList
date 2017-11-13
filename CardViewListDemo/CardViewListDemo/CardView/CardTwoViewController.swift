@@ -13,6 +13,7 @@ class CardTwoViewController: UIViewController {
     @IBOutlet weak var imgProfile: UIImageView!
     @IBOutlet weak var lblSummary: UILabel!
     @IBOutlet weak var btnDetail: UIButton!
+    @IBOutlet weak var imgBg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +24,7 @@ class CardTwoViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         imgProfile.layer.cornerRadius = imgProfile.bounds.width / 2
-        imgProfile.clipsToBounds = true
         lblSummary.layer.cornerRadius = 12
-        lblSummary.clipsToBounds = true
         btnDetail.layer.cornerRadius = 12
     }
     
