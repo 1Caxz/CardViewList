@@ -4,7 +4,7 @@ Now, You can create CardView list like Android in iOS with simple way. This libr
 
 <br><br>
 <p align="center">
-<img width="250" src="https://github.com/icaksama/Weathersama/blob/master/CardViewListExample.gif">&nbsp;&nbsp;&nbsp;
+<img width="250" src="https://github.com/icaksama/CardViewList/blob/master/CardViewListExample.gif">&nbsp;&nbsp;&nbsp;
 </p>
 <br>
 
