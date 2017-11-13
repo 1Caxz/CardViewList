@@ -48,7 +48,9 @@ open class CardViewList {
     /** Set the delegete of CardViewList */
     open var delegete: CardViewListDelegete!
     
-    init() {}
+    public init() {
+        
+    }
     
     /** Generate CardView list with UIViewController */
     open func generateCardViewList(containerView: UIView, cardViews: [UIViewController], listType: ListType, identifier: String) {
@@ -147,12 +149,18 @@ open class CardViewList {
                 view.center.x = scrollView.center.x
             }
         }
-        view.layer.masksToBounds = true
+        
+        let roundedView = UIView(frame: view.frame)
+        roundedView.layer.shadowColor = shadowColor.cgColor
+        roundedView.layer.shadowPath = UIBezierPath(roundedRect: view.bounds, cornerRadius: cornerRadius).cgPath
+        roundedView.layer.shadowOffset = CGSize(width: shadowSize, height: shadowSize)
+        roundedView.layer.shadowOpacity = shadowOpacity
+        roundedView.layer.shadowRadius = cornerRadius
+        
+        view.clipsToBounds = true
         view.layer.cornerRadius = cornerRadius
-        view.layer.shadowRadius = cornerRadius
-        view.layer.shadowOffset = CGSize(width: shadowSize, height: shadowSize)
-        view.layer.shadowOpacity = shadowOpacity
-        view.layer.shadowColor = shadowColor.cgColor
+        scrollView.addSubview(roundedView)
         scrollView.addSubview(view)
     }
 }
+
