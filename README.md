@@ -32,7 +32,7 @@ func cardView(_ scrollView: UIScrollView, didFinishDisplay cardViews: [UIView], 
 ```
 
 # Create CardView List with UIViewControler
-First, You need to create your Views/UIViewControler as CardView. You can see the demo project.
+First, You need to create your UIViewControler as CardView. You can see the demo project.
 Make sure run this program inside viewDidAppear for best appearance. "identifier" will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
 override func viewDidAppear(_ animated: Bool) {
@@ -45,8 +45,8 @@ override func viewDidAppear(_ animated: Bool) {
 ```
 
 # Create CardView List with UIView
-First, You need to create your Views/UIViewControler as CardView. You can see in the demo project.
-Make sure run this program inside viewDidAppear for best appearance.
+First, You need to create your Views as CardView. You can see in the demo project.
+Make sure run this program inside viewDidAppear for best appearance. "identifier" will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
 override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
