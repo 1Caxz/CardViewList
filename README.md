@@ -2,11 +2,9 @@
 Create CardView like Android easier in iOS. Support iOS 8.0 - above!
 Now, You can create CardView list like Android in iOS with simple way. This library provides list for horizontal and vertical scroll and with the dynamic control such as tableView in iOS. Easy to understand because of the concept similar to TableViewDelegete. You can create CardView list with your UIViewController or UIView. It's Simple!
 
-<br><br>
 <p align="center">
 <img width="350" src="https://github.com/icaksama/CardViewList/blob/master/CardViewListExample.gif">&nbsp;&nbsp;&nbsp;
 </p>
-<br>
 
 # Add Delegete
 Add CardViewListDelegete in your UIViewController
