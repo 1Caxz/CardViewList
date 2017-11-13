@@ -6,5 +6,5 @@ use_frameworks!
 inhibit_all_warnings!
 
 target ‘CardViewListDemo' do
-    pod 'CardViewList', '~> 1.1.1'
+    pod 'CardViewList', '~> 1.1.2'
 end
