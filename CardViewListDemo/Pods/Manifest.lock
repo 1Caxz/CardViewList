@@ -1,0 +1,12 @@
+PODS:
+  - CardViewList (1.1.1)
+
+DEPENDENCIES:
+  - CardViewList (~> 1.1.1)
+
+SPEC CHECKSUMS:
+  CardViewList: 302f9d178e2b5e7bf078f83706e309d0572eaf60
+
+PODFILE CHECKSUM: 0dea8d3b5f207c8dad1f0d9cf189bb8f2147b6d0
+
+COCOAPODS: 1.1.1

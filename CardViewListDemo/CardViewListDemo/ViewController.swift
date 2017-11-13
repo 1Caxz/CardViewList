@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CardViewList
 
 class ViewController: UIViewController, CardViewListDelegete {
     

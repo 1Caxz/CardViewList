@@ -48,6 +48,8 @@ open class CardViewList {
     /** Set the delegete of CardViewList */
     open var delegete: CardViewListDelegete!
     
+    init() {}
+    
     /** Generate CardView list with UIViewController */
     open func generateCardViewList(containerView: UIView, cardViews: [UIViewController], listType: ListType, identifier: String) {
         self.containerView = containerView
