@@ -23,20 +23,20 @@
             <rect key="frame" x="0.0" y="0.0" width="299" height="372"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="0QG-BZ-l6A">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="0QG-BZ-l6A">
                     <rect key="frame" x="0.0" y="0.0" width="299" height="159"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="159" id="Q6z-wQ-kM5"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icaksama" translatesAutoresizingMaskIntoConstraints="NO" id="4zP-fe-t6C">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icaksama" translatesAutoresizingMaskIntoConstraints="NO" id="4zP-fe-t6C">
                     <rect key="frame" x="16" y="98" width="115" height="115"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="115" id="F7r-6p-vbE"/>
                         <constraint firstAttribute="height" constant="115" id="kZl-dR-pFY"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAl-9h-aOC">
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAl-9h-aOC">
                     <rect key="frame" x="16" y="322" width="267" height="30"/>
                     <color key="backgroundColor" red="0.38178261937315516" green="0.72336632010000002" blue="0.34691892852079892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
@@ -50,7 +50,7 @@
                         <action selector="btnDetailTouchUp:" destination="-1" eventType="touchUpInside" id="FHv-1S-oFB"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CardViewList library for swift. Create CardView like Android in iOS easier with this library." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhc-sw-Oxo">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CardViewList library for swift. Create CardView like Android in iOS easier with this library." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhc-sw-Oxo">
                     <rect key="frame" x="16" y="227" width="267" height="87"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>

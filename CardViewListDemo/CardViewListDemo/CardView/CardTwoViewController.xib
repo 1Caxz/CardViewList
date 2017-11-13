@@ -13,7 +13,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardTwoViewController" customModule="CardViewListDemo" customModuleProvider="target">
             <connections>
                 <outlet property="btnDetail" destination="vGR-Gh-yuM" id="hiZ-hm-JJn"/>
-                <outlet property="imgBg" destination="cqz-ch-Ocq" id="oWG-9D-h4k"/>
                 <outlet property="imgProfile" destination="h4J-mX-oAX" id="DRg-Gg-yMp"/>
                 <outlet property="lblSummary" destination="8nL-h1-z4b" id="n7i-e2-lTL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -24,17 +23,17 @@
             <rect key="frame" x="0.0" y="0.0" width="349" height="166"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cqz-ch-Ocq">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cqz-ch-Ocq">
                     <rect key="frame" x="0.0" y="0.0" width="349" height="166"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icaksama1" translatesAutoresizingMaskIntoConstraints="NO" id="h4J-mX-oAX">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icaksama1" translatesAutoresizingMaskIntoConstraints="NO" id="h4J-mX-oAX">
                     <rect key="frame" x="16" y="33" width="75" height="75"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="75" id="Kd7-Zu-7OS"/>
                         <constraint firstAttribute="width" constant="75" id="SFi-BR-G9K"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CardViewList library for swift. Create CardView like Android in iOS easier with this library." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nL-h1-z4b">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CardViewList library for swift. Create CardView like Android in iOS easier with this library." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nL-h1-z4b">
                     <rect key="frame" x="99" y="33" width="234" height="75"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <constraints>
@@ -46,7 +45,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGR-Gh-yuM">
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGR-Gh-yuM">
                     <rect key="frame" x="16" y="116" width="317" height="30"/>
                     <color key="backgroundColor" red="0.38178261940000002" green="0.72336632010000002" blue="0.3469189285" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>

@@ -13,7 +13,6 @@ class CardTwoViewController: UIViewController {
     @IBOutlet weak var imgProfile: UIImageView!
     @IBOutlet weak var lblSummary: UILabel!
     @IBOutlet weak var btnDetail: UIButton!
-    @IBOutlet weak var imgBg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

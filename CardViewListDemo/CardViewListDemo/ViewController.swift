@@ -26,8 +26,8 @@ class ViewController: UIViewController, CardViewListDelegete {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let cardViews1 = [CardTwoViewController(nibName: "CardTwoViewController", bundle: nil), CardTwoViewController(nibName: "CardTwoViewController", bundle: nil)]
-        let cardViews2 = [CardOneViewController(nibName: "CardOneViewController", bundle: nil), CardOneViewController(nibName: "CardOneViewController", bundle: nil)]
+        let cardViews1 = [CardTwoViewController(nibName: "CardTwoViewController", bundle: nil), CardTwoViewController(nibName: "CardTwoViewController", bundle: nil), CardTwoViewController(nibName: "CardTwoViewController", bundle: nil), CardTwoViewController(nibName: "CardTwoViewController", bundle: nil), CardTwoViewController(nibName: "CardTwoViewController", bundle: nil), CardTwoViewController(nibName: "CardTwoViewController", bundle: nil), CardTwoViewController(nibName: "CardTwoViewController", bundle: nil)]
+        let cardViews2 = [CardOneViewController(nibName: "CardOneViewController", bundle: nil), CardOneViewController(nibName: "CardOneViewController", bundle: nil), CardOneViewController(nibName: "CardOneViewController", bundle: nil), CardOneViewController(nibName: "CardOneViewController", bundle: nil), CardOneViewController(nibName: "CardOneViewController", bundle: nil), CardOneViewController(nibName: "CardOneViewController", bundle: nil), CardOneViewController(nibName: "CardOneViewController", bundle: nil)]
         self.cardViewList.generateCardViewList(containerView: cardContainerHorizontal, cardViews: cardViews1, listType: .horizontal, identifier: "horizontalCard")
         self.cardViewList.generateCardViewList(containerView: cardContainerVertical, cardViews: cardViews2, listType: .vertical, identifier: "verticalCard")
     }
