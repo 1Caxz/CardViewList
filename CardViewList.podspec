@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://twitter.com/icaksama'
   s.authors = { 'icaksama' => 'icaksama@gmail.org' }
   s.source = { :git => 'https://github.com/icaksama/CardViewList.git', :tag => s.version }
-  s.platform = :ios, '9.0'
-  s.ios.deployment_target = '9.0'
+  s.platform = :ios, '8.0'
+  s.ios.deployment_target = '8.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.source_files = 'CardViewList/CardViewList/**/*.{swift,h}'
 end
