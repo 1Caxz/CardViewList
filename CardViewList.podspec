@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CardViewList'
-  s.version = '1.1.4'
+  s.version = '1.1.5'
   s.license = 'MIT'
   s.summary = 'Create CardView like Android easier in iOS.'
   s.homepage = 'https://github.com/icaksama/CardViewList'

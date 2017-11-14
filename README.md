@@ -9,7 +9,7 @@ Now, You can create CardView list like Android in iOS with simple way. This libr
 # Add to Podfile
 Add CardViewList library to your Podfile and install.
 ```swift
-pod 'CardViewList', '~> 1.1.4'
+pod 'CardViewList', '~> 1.1.5'
 ```
 
 # Import Library
