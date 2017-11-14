@@ -12,6 +12,12 @@ Add CardViewList library to your Podfile and install.
 pod 'CardViewList', '~> 1.1.4'
 ```
 
+# Import Library
+Add import CardViewList library in your class before use this library.
+```swift
+import CardViewList
+```
+
 # Add Delegete
 Add CardViewListDelegete in your UIViewController
 ```swift
