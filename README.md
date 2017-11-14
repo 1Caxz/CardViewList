@@ -19,7 +19,7 @@ import CardViewList
 ```
 
 # Add Delegete
-Add CardViewListDelegete in your UIViewController
+Add <b>CardViewListDelegete</b> in your UIViewController
 ```swift
 class ViewController: UIViewController, CardViewListDelegete {
 ```
@@ -43,9 +43,9 @@ func cardView(_ scrollView: UIScrollView, didFinishDisplay cardViews: [UIView], 
 
 # Create CardView List with UIViewControler
 First, You need to create your UIViewControler as CardView. You can see the demo project.
-Make sure run this program inside viewDidAppear for best appearance. "identifier" will let you create more than one CardView list in one page and detect it with the identifier.
+Make sure run this program inside viewDidAppear for best appearance. <b>"identifier"</b> will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
-fileprivate cardViewList: CardViewList!
+fileprivate var cardViewList: CardViewList!
 override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     self.cardViewList = CardViewList()
@@ -57,9 +57,9 @@ override func viewDidAppear(_ animated: Bool) {
 
 # Create CardView List with UIView
 First, You need to create your Views as CardView. You can see in the demo project.
-Make sure run this program inside viewDidAppear for best appearance. "identifier" will let you create more than one CardView list in one page and detect it with the identifier.
+Make sure run this program inside viewDidAppear for best appearance. <b>"identifier"</b> will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
-fileprivate cardViewList: CardViewList!
+fileprivate var cardViewList: CardViewList!
 override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     self.cardViewList = CardViewList()
@@ -72,7 +72,7 @@ override func viewDidAppear(_ animated: Bool) {
 # CardView Setting
 Setting the CardView before generate CardView List.
 ```swift
-fileprivate cardViewList: CardViewList!
+fileprivate var cardViewList: CardViewList!
 override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     self.cardViewList = CardViewList()
@@ -111,7 +111,7 @@ override func viewDidAppear(_ animated: Bool) {
 ------------------------------------------------------------------------------------------------------------------------------------
 # MIT License
 
-Copyright (c) 2017 Saiful Irham Wicaksana
+Copyright (c) 2017 <b>Saiful Irham Wicaksana</b>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
