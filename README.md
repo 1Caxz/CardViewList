@@ -39,6 +39,7 @@ func cardView(_ scrollView: UIScrollView, didFinishDisplay cardViews: [UIView], 
 First, You need to create your UIViewControler as CardView. You can see the demo project.
 Make sure run this program inside viewDidAppear for best appearance. "identifier" will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
+fileprivate cardViewList: CardViewList!
 override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     self.cardViewList = CardViewList()
@@ -52,10 +53,51 @@ override func viewDidAppear(_ animated: Bool) {
 First, You need to create your Views as CardView. You can see in the demo project.
 Make sure run this program inside viewDidAppear for best appearance. "identifier" will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
+fileprivate cardViewList: CardViewList!
 override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     self.cardViewList = CardViewList()
     self.cardViewList.delegete = self
+    let cardViews1 = [yourView1, yourView2, yourView3, yourView4]
+    self.cardViewList.generateCardViewList(containerView: cardContainerHorizontal, cardViews: cardViews1, listType: .horizontal, identifier: "horizontalCard")
+}
+```
+
+# CardView Setting
+Setting the CardView before generate CardView List.
+```swift
+fileprivate cardViewList: CardViewList!
+override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    self.cardViewList = CardViewList()
+    
+    /** Set corner radius of card view in pixel */
+    self.cardViewList.cornerRadius = 12.0
+    
+    /** Set shadow size of card view in pixel */
+    self.cardViewList.shadowSize = 5.0
+    
+    /** Set shadow opacity of card view in 0 - 1 */
+    self.cardViewList.shadowOpacity = 0.9
+    
+    /** Set shadow color of card view. Default color is black */
+    self.cardViewList.shadowColor = UIColor.black
+    
+    /** Set margin of card view in percent(%) 0 - 100*/
+    self.cardViewList.margin = 5
+    
+    /** Set list type horizontal or vertical */
+    self.cardViewList.listType = .vertical
+    
+    /** Set center x card view. Default is true */
+    self.cardViewList.isCenterX = true
+    
+    /** Set center y card view. Default is true */
+    self.cardViewList.isCenterY = true
+    
+    /** Set the delegete */
+    self.cardViewList.delegete = self
+    
     let cardViews1 = [yourView1, yourView2, yourView3, yourView4]
     self.cardViewList.generateCardViewList(containerView: cardContainerHorizontal, cardViews: cardViews1, listType: .horizontal, identifier: "horizontalCard")
 }
