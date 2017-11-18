@@ -4,11 +4,8 @@ Now, You can create CardView list like Android in iOS with simple way. This libr
 CardViewList have many feature for make your CardView awesome like animation scroll, clickable, multi-touch and responsive. It's Awesome!
 
 <p align="center">
-<img width="350" src="https://github.com/icaksama/CardViewList/blob/master/CardViewListExample.gif?raw=true">&nbsp;&nbsp;&nbsp;
+<img width="450" src="https://github.com/icaksama/CardViewList/blob/master/iPadResponsive.gif?raw=true">&nbsp;&nbsp;&nbsp;
 <img width="350" src="https://github.com/icaksama/CardViewList/blob/master/iPhoneResponsive.gif?raw=true">
-</p><br>
-<p align="center">
-<img width="450" src="https://github.com/icaksama/CardViewList/blob/master/iPadResponsive.gif?raw=true">
 </p>
 
 # Add to Podfile
