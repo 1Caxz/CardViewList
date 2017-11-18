@@ -2,11 +2,15 @@ PODS:
   - CardViewList (1.1.6)
 
 DEPENDENCIES:
-  - CardViewList (~> 1.1.6)
+  - CardViewList (from `~/Documents/icaksama/GIT/CardViewList`)
+
+EXTERNAL SOURCES:
+  CardViewList:
+    :path: ~/Documents/icaksama/GIT/CardViewList
 
 SPEC CHECKSUMS:
-  CardViewList: 3bfd99cffbe1250f02cf63ccd9a12648e8a495db
+  CardViewList: 8cf36edabbefc680b99d1626dfe1056e842fdeca
 
-PODFILE CHECKSUM: a5cef2a9f5d5a0cc77898685749c5fb9dc22cf31
+PODFILE CHECKSUM: 13f15ccae8f5ae968c2d953b1099634f4c9a803f
 
 COCOAPODS: 1.3.1

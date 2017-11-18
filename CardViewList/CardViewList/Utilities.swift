@@ -9,6 +9,16 @@
 import Foundation
 import UIKit
 
+extension CardViewListDelegete {
+    public func cardView(willDisplay scrollView: UIScrollView, identifierCards identifier: String) {}
+    public func cardView(_ scrollView: UIScrollView, willAttachCardView cardView: UIView, identifierCards identifier: String, index: Int) {}
+    public func cardView(_ scrollView: UIScrollView, willAttachCardViewController cardViewController: UIViewController, identifierCards identifier: String, index: Int) {}
+    public func cardView(_ scrollView: UIScrollView, didFinishDisplayCardViews cardViews: [UIView], identifierCards identifier: String) {}
+    public func cardView(_ scrollView: UIScrollView, didFinishDisplayCardViewControllers cardViewsController: [UIViewController], identifierCards identifier: String) {}
+    public func cardView(_ scrollView: UIScrollView, didSelectCardView cardView: UIView, identifierCards identifier: String, index: Int) {}
+    public func cardView(_ scrollView: UIScrollView, didSelectCardViewController cardViewController: UIViewController, identifierCards identifier: String, index: Int) {}
+}
+
 extension UIView {
     func setX(x: CGFloat) {
         var frame: CGRect = self.frame
@@ -41,11 +51,11 @@ extension UIView {
 
 class Utilities {
     
-    internal func getWidthPercentOfView(view: UIView,percent: CGFloat) -> CGFloat {
+    internal func getWidthPercentOfView(view: UIView, percent: CGFloat) -> CGFloat {
         return view.bounds.width * (percent / 100)
     }
     
-    internal func getHeightPercentOfView(view: UIView,percent: CGFloat) -> CGFloat {
+    internal func getHeightPercentOfView(view: UIView, percent: CGFloat) -> CGFloat {
         return view.bounds.height * (percent / 100)
     }
     

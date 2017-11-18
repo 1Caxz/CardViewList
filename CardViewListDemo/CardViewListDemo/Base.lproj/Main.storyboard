@@ -19,32 +19,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QMj-PH-mYs">
-                                <rect key="frame" x="16" y="229" width="343" height="418"/>
+                                <rect key="frame" x="16" y="399" width="343" height="248"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oah-wr-kKH">
-                                <rect key="frame" x="16" y="20" width="343" height="201"/>
+                                <rect key="frame" x="16" y="20" width="343" height="200"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="201" id="Gqm-FR-cko"/>
+                                    <constraint firstAttribute="height" constant="200" id="Gqm-FR-cko"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQj-IK-zIn">
+                                <rect key="frame" x="16" y="228" width="343" height="163"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="Le7-tk-T8e"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QMj-PH-mYs" secondAttribute="trailing" constant="16" id="2Gh-Oj-3cp"/>
+                            <constraint firstItem="BQj-IK-zIn" firstAttribute="top" secondItem="Oah-wr-kKH" secondAttribute="bottom" constant="8" id="2wc-PD-JAG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Oah-wr-kKH" secondAttribute="trailing" constant="16" id="9oC-Yk-xqF"/>
+                            <constraint firstItem="BQj-IK-zIn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CPQ-kX-goB"/>
                             <constraint firstItem="Oah-wr-kKH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="M6k-1c-oJv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QMj-PH-mYs" secondAttribute="trailing" constant="16" id="Mh3-Ox-RGl"/>
-                            <constraint firstItem="QMj-PH-mYs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Nh1-3i-MTb"/>
-                            <constraint firstItem="QMj-PH-mYs" firstAttribute="top" secondItem="Oah-wr-kKH" secondAttribute="bottom" constant="8" id="NuU-dT-Jaf"/>
+                            <constraint firstItem="QMj-PH-mYs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="TET-fO-Syt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QMj-PH-mYs" secondAttribute="bottom" constant="20" id="Vyg-EP-gLo"/>
+                            <constraint firstItem="QMj-PH-mYs" firstAttribute="top" secondItem="BQj-IK-zIn" secondAttribute="bottom" constant="8" id="c66-Ox-MOe"/>
                             <constraint firstItem="Oah-wr-kKH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fXf-MQ-m0Y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QMj-PH-mYs" secondAttribute="bottom" constant="20" id="ngY-7z-crZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BQj-IK-zIn" secondAttribute="trailing" constant="16" id="xcD-aX-gaF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="cardContainerHorizontal" destination="Oah-wr-kKH" id="3VW-AH-cJX"/>
                         <outlet property="cardContainerVertical" destination="QMj-PH-mYs" id="p3g-Or-7DH"/>
+                        <outlet property="cardContainerWithView" destination="BQj-IK-zIn" id="5gY-ge-cm8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
