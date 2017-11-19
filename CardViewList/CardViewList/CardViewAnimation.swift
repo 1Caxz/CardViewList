@@ -55,8 +55,9 @@ open class CardViewAnimation {
         UIView.animate(withDuration: 0.1, animations: {
             view.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
         }) { (_) in
-            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 2.0, options: UIViewAnimationOptions.allowUserInteraction, animations: {
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 2.0, options: .allowUserInteraction, animations: {
                 view.transform = CGAffineTransform.identity
+            }, completion: { (_) in
                 completion()
             })
         }

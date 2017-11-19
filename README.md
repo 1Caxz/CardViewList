@@ -11,7 +11,7 @@ CardViewList have many feature for make your CardView awesome like animation scr
 # Add to Podfile
 Add CardViewList library to your Podfile and install.
 ```swift
-pod 'CardViewList', '~> 1.1.7'
+pod 'CardViewList', '~> 1.1.8'
 ```
 
 # Import Library
@@ -44,11 +44,8 @@ func cardView(_ scrollView: UIScrollView, didFinishDisplayCardViews cardViews: [
 // Response when CardView from UIViewController did finish attached.
 func cardView(_ scrollView: UIScrollView, didFinishDisplayCardViewControllers cardViewsController: [UIViewController], identifierCards identifier: String) {}
 
-// Response when CardView from UIView is selected.
+// Response when CardView is selected.
 func cardView(_ scrollView: UIScrollView, didSelectCardView cardView: UIView, identifierCards identifier: String, index: Int) {}
-
-// Response when CardView from UIViewController is selected.
-func cardView(_ scrollView: UIScrollView, didSelectCardViewController cardViewController: UIViewController, identifierCards identifier: String, index: Int) {}
 ```
 
 # Create CardView List with UIViewControler
