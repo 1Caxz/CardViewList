@@ -59,7 +59,7 @@ override func viewDidAppear(_ animated: Bool) {
     self.cardViewList.delegete = self
     
     // Create CardView List from UIViewController
-    var cardViewControllers1 = [UIViewController]()
+    var cardViewControllers = [UIViewController]()
     for _ in 1 ... 25 {
         cardViewControllers1.append(CardTwoViewController(nibName: "CardTwoViewController", bundle: nil))
     }
@@ -67,7 +67,7 @@ override func viewDidAppear(_ animated: Bool) {
     self.cardViewList.isClickable = true
     self.cardViewList.clickAnimation = .bounce
     self.cardViewList.grid = 1
-    self.cardViewList.generateCardViewList(containerView: cardContainerHorizontal, viewControllers: cardViewControllers1, listType: .horizontal, identifier: "horizontalCard")
+    self.cardViewList.generateCardViewList(containerView: self.view, viewControllers: cardViewControllers, listType: .horizontal, identifier: "CardWithUIViewController")
     //------------------------ - - ----------------------
 }
 ```
@@ -83,17 +83,16 @@ override func viewDidAppear(_ animated: Bool) {
     self.cardViewList.delegete = self
     
     // Create CardView List from UIView
-    var cardViews1 = [UIView]()
+    var cardViews = [UIView]()
     for _ in 1 ... 25 {
-    let cardView = CardView(frame: CGRect(x: 0, y: 0, width: 150, height: 150))
-    cardViews1.append(cardView)
+        cardViews.append(UIView(frame: CGRect(x: 0, y: 0, width: 150, height: 150)))
     }
     self.cardViewList.animationScroll = .scaleBounce
     self.cardViewList.isClickable = true
     self.cardViewList.clickAnimation = .bounce
     self.cardViewList.cardSizeType = .autoSize
     self.cardViewList.grid = 1
-    self.cardViewList.generateCardViewList(containerView: cardContainerWithView, views: cardViews1, listType: .vertical, identifier: "CardWithUIViews1")
+    self.cardViewList.generateCardViewList(containerView: self.view, views: cardViews, listType: .vertical, identifier: "CardWithUIView")
     //------------------------ - - ----------------------
 }
 ```
