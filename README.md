@@ -61,7 +61,7 @@ override func viewDidAppear(_ animated: Bool) {
     // Create CardView List from UIViewController
     var cardViewControllers = [UIViewController]()
     for _ in 1 ... 25 {
-        cardViewControllers1.append(CardTwoViewController(nibName: "CardTwoViewController", bundle: nil))
+        cardViewControllers.append(CardViewController(nibName: "CardViewController", bundle: nil))
     }
     self.cardViewList.animationScroll = .transformToBottom
     self.cardViewList.isClickable = true
