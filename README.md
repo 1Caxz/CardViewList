@@ -1,4 +1,11 @@
 # CardViewList
+[![Creator](https://img.shields.io/badge/creator-icaksama-green.svg)](https://www.linkedin.com/in/icaksama/)
+[![GitHub license](https://img.shields.io/github/license/icaksama/CardViewList.svg)](https://raw.githubusercontent.com/icaksama/CardViewList/master/LICENSE)
+[![Code Size](https://img.shields.io/github/languages/code-size/icaksama/CardViewList.svg)](https://cocoapods.org/pods/CardViewList)
+[![Pod Version](https://img.shields.io/cocoapods/v/CardViewList.svg)](https://cocoapods.org/pods/CardViewList)
+[![Platform](https://img.shields.io/cocoapods/p/CardViewList.svg)](https://cocoapods.org/pods/CardViewList)
+[![Download Total](https://img.shields.io/cocoapods/dt/CardViewList.svg)](https://cocoapods.org/pods/CardViewList)
+<br>
 Create CardView like Android easier on iOS. This library provides horizontal and vertical scrolling with many features inside.
 
 ## Features
