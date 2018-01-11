@@ -1,5 +1,6 @@
 # CardViewList
 [![Creator](https://img.shields.io/badge/creator-icaksama-green.svg)](https://www.linkedin.com/in/icaksama/)
+[![Travis](https://img.shields.io/travis/icaksama/CardViewList.svg)](https://travis-ci.org/icaksama/CardViewList)
 [![GitHub license](https://img.shields.io/github/license/icaksama/CardViewList.svg)](https://raw.githubusercontent.com/icaksama/CardViewList/master/LICENSE)
 [![Code Size](https://img.shields.io/github/languages/code-size/icaksama/CardViewList.svg)](https://cocoapods.org/pods/CardViewList)
 [![Pod Version](https://img.shields.io/cocoapods/v/CardViewList.svg)](https://cocoapods.org/pods/CardViewList)
