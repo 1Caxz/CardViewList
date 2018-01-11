@@ -1,32 +1,42 @@
-# CardViewList (Swift 4)
-Create CardView like Android easier on iOS. Support iOS 8.0 - above!<br>
-Now, You can create CardView list like Android in iOS with simple way. This library provides the list for horizontal and vertical scroll and the dynamic control such as tableView in iOS. Easy to understand because of the concept similar to TableViewDelegete. You can create CardView list with your UIViewControllers or UIViews.
-CardViewList have many feature for make your CardView awesome like animation scroll, clickable, multi-touch and responsive. It's Awesome!
+# CardViewList
+Create CardView like Android easier on iOS. This library provides horizontal and vertical scrolling with many features inside.
 
+## Features
+- [x] Support swift 4 and iOS 8 above
+- [x] Suport vertical and horizontal scrolling
+- [x] CardView can be customized
+- [x] CardView shandow
+- [x] Clickable CardView
+- [x] Multi touch CardView
+- [x] Responsive design
+- [x] Awesome scrolling and touch animation
+- [x] EASY TO USE & FAST!
+
+## Preview
 <p align="center">
 <img width="450" src="https://github.com/icaksama/CardViewList/blob/master/iPadResponsive.gif?raw=true">&nbsp;&nbsp;&nbsp;
 <img width="350" src="https://github.com/icaksama/CardViewList/blob/master/iPhoneResponsive.gif?raw=true">
 </p>
 
-# Add to Podfile
+## Add to Podfile
 Add CardViewList library to your Podfile and install.
-```swift
+```text
 pod 'CardViewList', '~> 1.1.8'
 ```
 
-# Import Library
+## Import Library
 Add import CardViewList library in your class before use this library.
 ```swift
 import CardViewList
 ```
 
-# Add Delegete
-Add <b>CardViewListDelegete</b> in your UIViewController
+## Add CardViewListDelegete
+Add <b>CardViewListDelegete</b> in your Class/ViewController
 ```swift
 class ViewController: UIViewController, CardViewListDelegete {
 ```
 
-# Add Method Delegete
+## Add Method Delegete
 Method delegete is optional. But you can add them to your code for detecting some condition for your programs. Please define the method depend on CardView from UIView/UIViewController.
 ```swift
 // Response when CardView will Display.
@@ -48,7 +58,7 @@ func cardView(_ scrollView: UIScrollView, didFinishDisplayCardViewControllers ca
 func cardView(_ scrollView: UIScrollView, didSelectCardView cardView: UIView, identifierCards identifier: String, index: Int) {}
 ```
 
-# Create CardView List with UIViewControler
+## Create CardView List with UIViewControler
 First, You need to create your UIViewControler as CardView. You can see the demo project.
 Make sure run this program inside viewDidAppear for best appearance. <b>"identifier"</b> will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
@@ -68,11 +78,10 @@ override func viewDidAppear(_ animated: Bool) {
     self.cardViewList.clickAnimation = .bounce
     self.cardViewList.grid = 1
     self.cardViewList.generateCardViewList(containerView: self.view, viewControllers: cardViewControllers, listType: .horizontal, identifier: "CardWithUIViewController")
-    //------------------------ - - ----------------------
 }
 ```
 
-# Create CardView List with UIView
+## Create CardView List with UIView
 First, You need to create your Views as CardView. You can see in the demo project.
 Make sure run this program inside viewDidAppear for best appearance. <b>"identifier"</b> will let you create more than one CardView list in one page and detect it with the identifier.
 ```swift
@@ -93,11 +102,10 @@ override func viewDidAppear(_ animated: Bool) {
     self.cardViewList.cardSizeType = .autoSize
     self.cardViewList.grid = 1
     self.cardViewList.generateCardViewList(containerView: self.view, views: cardViews, listType: .vertical, identifier: "CardWithUIView")
-    //------------------------ - - ----------------------
 }
 ```
 
-# CardView Setting
+## CardView Setting
 Setting the CardView before generate CardView List.
 ```swift
 fileprivate var cardViewList: CardViewList!
@@ -165,29 +173,24 @@ override func viewDidAppear(_ animated: Bool) {
 }
 ```
 
-# List of AnimationScroll Types
+## List of AnimationScroll Types
 There are many animation scrolls. You can use them for your CardView list. The animation will start when CardView is visible to the user when scrolling.
-```swift
-- none
-- scaleBounce
-- transformToRight
-- transformToLeft
-- transformToBottom
-- transformToTop
-```
+- [x] none
+- [x] scaleBounce
+- [x] transformToRight
+- [x] transformToLeft
+- [x] transformToBottom
+- [x] transformToTop
 
-# List of CardSize Types
+## List of CardSize Types
 There are three CardSize type.
-```swift
-- autoSize : CardView size will generated from library.
-- square   : CardView size will be generated to square shape depend by width or height containerView that lower.
-- circle   : CardView size will be generated to square circle depend by width or height containerView that lower.
-```
+- [x] autoSize : CardView size will generated from library.
+- [x] square   : CardView size will be generated to square shape depend by width or height containerView that lower.
+- [x] circle   : CardView size will be generated to square circle depend by width or height containerView that lower.
 
-------------------------------------------------------------------------------------------------------------------------------------
-# MIT License
-
-Copyright (c) 2017 <b>Saiful Irham Wicaksana</b>
+## MIT License
+```text
+Copyright (c) 2017 Saiful Irham Wicaksana
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -206,3 +209,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
