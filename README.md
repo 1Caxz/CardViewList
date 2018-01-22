@@ -116,69 +116,53 @@ override func viewDidAppear(_ animated: Bool) {
 ## CardView Setting
 Setting the CardView before generate CardView List.
 ```swift
-fileprivate var cardViewList: CardViewList!
-override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
-    self.cardViewList = CardViewList()
-
-    /** Set disable/enable shadow of CardView. Default is true */
-    open var isShadowEnable: Bool = true
+/** Set disable/enable shadow of CardView. Default is true */
+cardViewList.isShadowEnable = true
     
-    /** Set disable/enable click of CardView. Default is false */
-    open var isClickable: Bool = false
+/** Set disable/enable click of CardView. Default is false */
+cardViewList.isClickable = false
     
-    /** Set multiple touch of CardView. Default is false */
-    open var isMultipleTouch: Bool = false
+/** Set multiple touch of CardView. Default is false */
+cardViewList.isMultipleTouch = false
     
-    /** Set corner radius of card view in pixel. Default is 12.0 */
-    open var cornerRadius: CGFloat = 12.0
+/** Set corner radius of card view in pixel. Default is 12.0 */
+cardViewList.cornerRadius = 12.0
     
-    /** Set shadow size of card view in pixel. Default is 5.0 */
-    open var shadowSize: CGFloat = 5.0
+/** Set shadow size of card view in pixel. Default is 5.0 */
+cardViewList.shadowSize = 5.0
     
-    /** Set shadow opacity of card view in 0 - 1. Default is 0.9 */
-    open var shadowOpacity: Float = 0.9
+/** Set shadow opacity of card view in 0 - 1. Default is 0.9 */
+cardViewList.shadowOpacity = 0.9
     
-    /** Set shadow color of card view. Default color is black */
-    open var shadowColor: UIColor = UIColor.black
+/** Set shadow color of card view. Default color is black */
+cardViewList.shadowColor = UIColor.black
     
-    /** Set CardView margin in percent(%) of containerView. Default is 5 */
-    open var margin: CGFloat = 5
+/** Set CardView margin in percent(%) of containerView. Default is 5 */
+cardViewList.margin = 5
     
-    /** Set margin between CardView in percent(%) of containerView. Default is 5 */
-    open var marginCards: CGFloat = 5
+/** Set margin between CardView in percent(%) of containerView. Default is 5 */
+cardViewList.marginCards = 5
     
-    /** Set list type horizontal, vertical, horizontalVertical. Default is vertical */
-    open var listType: ListType = .vertical
+/** Set list type horizontal, vertical, horizontalVertical. Default is vertical */
+cardViewList.listType = .vertical
     
-    /** Set grid List of CardView. Default is 1 */
-    open var grid: Int = 1
+/** Set grid List of CardView. Default is 1 */
+cardViewList.grid = 1
     
-    /** Set size of CardView. Default is autoSize */
-    open var cardSizeType: CardSizeType = .autoSize
+/** Set size of CardView. Default is autoSize */
+cardViewList.cardSizeType = .autoSize
     
-    /** Set max width of CardView in percent(%) of containerView. Default is 100 */
-    open var maxWidth: CGFloat = 100
+/** Set max width of CardView in percent(%) of containerView. Default is 100 */
+cardViewList.maxWidth = 100
     
-    /** Set max height of CardView in percent(%) of containerView. Default is 100 */
-    open var maxHeight: CGFloat = 100
+/** Set max height of CardView in percent(%) of containerView. Default is 100 */
+cardViewList.maxHeight = 100
     
-    /** Set animation when CardView showing. Default is none */
-    open var animationScroll: AnimationOpening = .none
+/** Set animation when CardView showing. Default is none */
+cardViewList.animationScroll = .none
     
-    /** Set animation click for CardView. Default is none */
-    open var clickAnimation: ClickAnimation = .none
-    
-    /** Set the delegete of CardViewList */
-    open var delegete: CardViewListDelegete!
-
-    var cardViews = [UIView]()
-    for _ in 1 ... 25 {
-        let cardView = CardView(frame: CGRect(x: 0, y: 0, width: 150, height: 150))
-        cardViews1.append(cardView)
-    }
-    self.cardViewList.generateCardViewList(containerView: cardContainerWithView, views: cardViews, listType: .horizontal, identifier: "CardWithUIViews1")
-}
+/** Set animation click for CardView. Default is none */
+cardViewList.clickAnimation = .none
 ```
 
 ## List of AnimationScroll Types

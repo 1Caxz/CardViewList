@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'Create CardView like Android easier on iOS.'
   s.homepage = 'https://github.com/icaksama/CardViewList'
   s.social_media_url = 'http://twitter.com/icaksama'
-  s.authors = { 'icaksama' => 'icaksama@gmail.org' }
+  s.authors = { 'icaksama' => 'icaksama@gmail.com' }
   s.source = { :git => 'https://github.com/icaksama/CardViewList.git', :tag => s.version }
   s.platform = :ios, '8.0'
   s.ios.deployment_target = '8.0'
